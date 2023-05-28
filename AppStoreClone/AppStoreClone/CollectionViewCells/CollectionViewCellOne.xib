@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellOne" id="gTV-IL-0wX" customClass="CollectionViewCellOne" customModule="AppStoreClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="325"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="325"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J69-ST-UCU">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="322"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDITORS' CHOICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VlF-Uj-PS8">
+                                <rect key="frame" x="10" y="5" width="88.333333333333329" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share the moment on Snapchat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2h-8l-41Q">
+                                <rect key="frame" x="10.000000000000014" y="19" width="253.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Express yourself with lenses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tao-Us-Vbx">
+                                <rect key="frame" x="10" y="42" width="226.33333333333334" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LargeImageOne" translatesAutoresizingMaskIntoConstraints="NO" id="9rQ-XY-NAA">
+                                <rect key="frame" x="10" y="73" width="370" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="370" id="bGS-nD-8BU"/>
+                                    <constraint firstAttribute="height" constant="229" id="vvb-07-lYY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snapchatLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TGT-yD-ldN">
+                                <rect key="frame" x="24" y="248" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="LCC-wM-sDA"/>
+                                    <constraint firstAttribute="height" constant="40" id="Pl6-29-Jue"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oN-7V-uOl">
+                                <rect key="frame" x="72" y="248" width="46" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="13"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share the moment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7K-Jm-l6g">
+                                <rect key="frame" x="72" y="267" width="116" height="15"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5y-cl-uOx">
+                                <rect key="frame" x="294.66666666666669" y="248" width="63.333333333333314" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="OPEN">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGray3Color"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9rQ-XY-NAA" secondAttribute="trailing" constant="10" id="7Ix-sE-pRp"/>
+                            <constraint firstItem="VlF-Uj-PS8" firstAttribute="top" secondItem="J69-ST-UCU" secondAttribute="top" constant="5" id="8gv-Ma-45d"/>
+                            <constraint firstItem="9rQ-XY-NAA" firstAttribute="leading" secondItem="J69-ST-UCU" secondAttribute="leading" constant="10" id="Abf-gG-2Kf"/>
+                            <constraint firstItem="2oN-7V-uOl" firstAttribute="top" secondItem="Tao-Us-Vbx" secondAttribute="bottom" constant="185" id="BFo-k5-5rs"/>
+                            <constraint firstItem="VlF-Uj-PS8" firstAttribute="leading" secondItem="J69-ST-UCU" secondAttribute="leading" constant="10" id="FIa-Y6-3ez"/>
+                            <constraint firstItem="c7K-Jm-l6g" firstAttribute="top" secondItem="2oN-7V-uOl" secondAttribute="bottom" constant="3" id="L2b-tv-0ok"/>
+                            <constraint firstAttribute="bottom" secondItem="TGT-yD-ldN" secondAttribute="bottom" constant="44" id="MLh-Pv-kG1"/>
+                            <constraint firstAttribute="bottom" secondItem="9rQ-XY-NAA" secondAttribute="bottom" constant="30" id="Nvo-Wl-xkB"/>
+                            <constraint firstItem="9rQ-XY-NAA" firstAttribute="top" secondItem="Tao-Us-Vbx" secondAttribute="bottom" constant="10" id="SG5-ia-phz"/>
+                            <constraint firstItem="C2h-8l-41Q" firstAttribute="top" secondItem="VlF-Uj-PS8" secondAttribute="bottom" constant="2" id="VeU-fl-N98"/>
+                            <constraint firstItem="A5y-cl-uOx" firstAttribute="top" secondItem="J69-ST-UCU" secondAttribute="top" constant="248" id="Yty-kA-pdv"/>
+                            <constraint firstItem="2oN-7V-uOl" firstAttribute="leading" secondItem="TGT-yD-ldN" secondAttribute="trailing" constant="8" id="ZN5-pp-mK9"/>
+                            <constraint firstItem="C2h-8l-41Q" firstAttribute="leading" secondItem="J69-ST-UCU" secondAttribute="leading" constant="10" id="j7t-8E-9e9"/>
+                            <constraint firstItem="Tao-Us-Vbx" firstAttribute="leading" secondItem="J69-ST-UCU" secondAttribute="leading" constant="10" id="ko7-hp-5wD"/>
+                            <constraint firstItem="c7K-Jm-l6g" firstAttribute="leading" secondItem="TGT-yD-ldN" secondAttribute="trailing" constant="8" id="qGH-Ks-PPO"/>
+                            <constraint firstItem="TGT-yD-ldN" firstAttribute="top" secondItem="Tao-Us-Vbx" secondAttribute="bottom" constant="185" id="r5I-CG-hpu"/>
+                            <constraint firstItem="TGT-yD-ldN" firstAttribute="leading" secondItem="J69-ST-UCU" secondAttribute="leading" constant="24" id="tQs-xQ-Pbz"/>
+                            <constraint firstItem="Tao-Us-Vbx" firstAttribute="top" secondItem="C2h-8l-41Q" secondAttribute="bottom" constant="2" id="uPB-J7-SIf"/>
+                            <constraint firstAttribute="trailing" secondItem="A5y-cl-uOx" secondAttribute="trailing" constant="32" id="wbF-IJ-ygg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Nvo-Wl-xkB"/>
+                                <exclude reference="MLh-Pv-kG1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="J69-ST-UCU" secondAttribute="bottom" constant="3" id="4ck-nR-egA"/>
+                <constraint firstItem="J69-ST-UCU" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="6RN-Jp-6zE"/>
+                <constraint firstItem="J69-ST-UCU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8a8-6r-MbL"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="J69-ST-UCU" secondAttribute="bottom" id="Dd6-ue-RUS"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="J69-ST-UCU" secondAttribute="trailing" id="glj-yd-tj8"/>
+            </constraints>
+            <size key="customSize" width="390" height="391"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Dd6-ue-RUS"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="iconImage" destination="TGT-yD-ldN" id="OvG-wD-VTh"/>
+                <outlet property="labelOne" destination="VlF-Uj-PS8" id="7wv-Yp-ESS"/>
+                <outlet property="labelThree" destination="Tao-Us-Vbx" id="3w6-9z-1pC"/>
+                <outlet property="labelTwo" destination="C2h-8l-41Q" id="fJ6-1q-4JL"/>
+                <outlet property="largeImage" destination="9rQ-XY-NAA" id="TyI-SI-fm6"/>
+                <outlet property="nameOfApp" destination="2oN-7V-uOl" id="NmG-ts-ZH9"/>
+                <outlet property="smallDescription" destination="c7K-Jm-l6g" id="IMx-Ra-2Rg"/>
+            </connections>
+            <point key="canvasLocation" x="302.29007633587787" y="108.80281690140846"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="LargeImageOne" width="259" height="194"/>
+        <image name="snapchatLogo" width="40" height="40"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
